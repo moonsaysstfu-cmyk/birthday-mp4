@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎂</title>
+    <style>
+        /* Simple styling to center your video nicely */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f2f5;
+            padding: 20px;
+        }
+        video {
+            max-width: 100%;
+            width: 640px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎉 Happy Birthday! 🎉</h1>
+    <p>Enjoy this special video celebration!</p>
+
+    <!-- The Video Player -->
+    <!-- Change "birthday.mp4" if your file has a different name -->
+    <video controls poster="">
+        <source src="birthday.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
